@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { memo } from "react";
+import { LightBox } from "react-lightbox-pack"; // <--- Importing LightBox Pack
+import "react-lightbox-pack/dist/index.css";
+import data from "./data.json";
+import Display from "./Display";
+// <--- Importing Sample JSON Data
 
-function App() {
+const App = () => {
+  // State
+  const [toggle, setToggle] = React.useState(false);
+  const [sIndex, setSIndex] = React.useState(0);
+
+  // Handler
+  const lightBoxHandler = (state, sIndex) => {
+    setToggle(state);
+    setSIndex(sIndex);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Display data={data} handle={lightBoxHandler} />
+
+      <LightBox
+        state={toggle}
+        event={lightBoxHandler}
+        data={data}
+        imageWidth="60vw"
+        imageHeight="70vh"
+        thumbnailHeight={50}
+        thumbnailWidth={50}
+        setImageIndex={setSIndex}
+        imageIndex={sIndex}
+      />
     </div>
   );
-}
+};
 
-export default App;
+export default memo(App);

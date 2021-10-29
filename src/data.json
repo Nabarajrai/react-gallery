@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "image": "team/madan.jpg",
+    "title": "Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos assumenda, velit explicabo non at consequuntur accusamus hic optio alias error nisi sunt sint veniam aperiam similique dolor fugit itaque minima!"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/500/800",
+    "title": "team.Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos assumenda, velit explicabo non at consequuntur accusamus hic optio alias error nisi sunt sint veniam aperiam similique dolor fugit itaque minima!"
+  },
+  {
+    "id": 3,
+    "image": "team/bipin dhimal.png"
+  },
+  {
+    "id": 1,
+    "image": "team/madan.jpg",
+    "title": "Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos assumenda, velit explicabo non at consequuntur accusamus hic optio alias error nisi sunt sint veniam aperiam similique dolor fugit itaque minima!"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/500/800",
+    "title": "team.Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos assumenda, velit explicabo non at consequuntur accusamus hic optio alias error nisi sunt sint veniam aperiam similique dolor fugit itaque minima!"
+  },
+  {
+    "id": 3,
+    "image": "team/bipin dhimal.png",
+    "title": "Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos assumenda, velit explicabo non at consequuntur accusamus hic optio alias error nisi sunt sint veniam aperiam similique dolor fugit itaque minima!"
+  }
+]
